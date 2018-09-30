@@ -1,0 +1,734 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		86009F0C21604F0400966A91 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 86009F0B21604F0400966A91 /* GoogleService-Info.plist */; };
+		86175FEC21395CA40091ADF8 /* SelectResidencyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86175FEB21395CA40091ADF8 /* SelectResidencyViewController.swift */; };
+		86194036213B608F003ECAD3 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86194035213B608F003ECAD3 /* Helper.swift */; };
+		86194038213B6164003ECAD3 /* FinalResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86194037213B6164003ECAD3 /* FinalResultsViewController.swift */; };
+		8619403A213B6169003ECAD3 /* RankingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86194039213B6168003ECAD3 /* RankingViewController.swift */; };
+		8619404B213B66B3003ECAD3 /* EnterResidenciesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8619404A213B66B3003ECAD3 /* EnterResidenciesViewController.swift */; };
+		86194077213B8154003ECAD3 /* RadOncResidencyList.xlsx in Resources */ = {isa = PBXBuildFile; fileRef = 86194063213B8152003ECAD3 /* RadOncResidencyList.xlsx */; };
+		86194078213B8154003ECAD3 /* OBGYNResidencyList.xlsx in Resources */ = {isa = PBXBuildFile; fileRef = 86194064213B8152003ECAD3 /* OBGYNResidencyList.xlsx */; };
+		86194079213B8154003ECAD3 /* OrthoResidencyList.xlsx in Resources */ = {isa = PBXBuildFile; fileRef = 86194065213B8152003ECAD3 /* OrthoResidencyList.xlsx */; };
+		8619407A213B8154003ECAD3 /* PlasticsResidencyList.xlsx in Resources */ = {isa = PBXBuildFile; fileRef = 86194066213B8152003ECAD3 /* PlasticsResidencyList.xlsx */; };
+		8619407B213B8154003ECAD3 /* NeurosurgeryResidencyList.xlsx in Resources */ = {isa = PBXBuildFile; fileRef = 86194067213B8152003ECAD3 /* NeurosurgeryResidencyList.xlsx */; };
+		8619407C213B8154003ECAD3 /* VascularResidencyList.xlsx in Resources */ = {isa = PBXBuildFile; fileRef = 86194068213B8152003ECAD3 /* VascularResidencyList.xlsx */; };
+		8619407D213B8154003ECAD3 /* EMResidencyList.xlsx in Resources */ = {isa = PBXBuildFile; fileRef = 86194069213B8152003ECAD3 /* EMResidencyList.xlsx */; };
+		8619407E213B8154003ECAD3 /* PMRResidencyList.xlsx in Resources */ = {isa = PBXBuildFile; fileRef = 8619406A213B8152003ECAD3 /* PMRResidencyList.xlsx */; };
+		8619407F213B8154003ECAD3 /* RadiologyResidencyList.xlsx in Resources */ = {isa = PBXBuildFile; fileRef = 8619406B213B8153003ECAD3 /* RadiologyResidencyList.xlsx */; };
+		86194080213B8154003ECAD3 /* ENTResidencyList.xlsx in Resources */ = {isa = PBXBuildFile; fileRef = 8619406C213B8153003ECAD3 /* ENTResidencyList.xlsx */; };
+		86194081213B8154003ECAD3 /* PsychResidencyList.xlsx in Resources */ = {isa = PBXBuildFile; fileRef = 8619406D213B8153003ECAD3 /* PsychResidencyList.xlsx */; };
+		86194082213B8154003ECAD3 /* GenSurgResidencyList.xlsx in Resources */ = {isa = PBXBuildFile; fileRef = 8619406E213B8153003ECAD3 /* GenSurgResidencyList.xlsx */; };
+		86194083213B8154003ECAD3 /* FMResidencyList.xlsx in Resources */ = {isa = PBXBuildFile; fileRef = 8619406F213B8153003ECAD3 /* FMResidencyList.xlsx */; };
+		86194084213B8154003ECAD3 /* PediatricsResidencyList.xlsx in Resources */ = {isa = PBXBuildFile; fileRef = 86194070213B8153003ECAD3 /* PediatricsResidencyList.xlsx */; };
+		86194085213B8154003ECAD3 /* PathologyResidencyList.xlsx in Resources */ = {isa = PBXBuildFile; fileRef = 86194071213B8153003ECAD3 /* PathologyResidencyList.xlsx */; };
+		86194086213B8154003ECAD3 /* UrologyResidencyList.xlsx in Resources */ = {isa = PBXBuildFile; fileRef = 86194072213B8153003ECAD3 /* UrologyResidencyList.xlsx */; };
+		86194087213B8154003ECAD3 /* DermResidencyList.xlsx in Resources */ = {isa = PBXBuildFile; fileRef = 86194073213B8153003ECAD3 /* DermResidencyList.xlsx */; };
+		86194088213B8154003ECAD3 /* IRResidencyList.xlsx in Resources */ = {isa = PBXBuildFile; fileRef = 86194074213B8153003ECAD3 /* IRResidencyList.xlsx */; };
+		86194089213B8154003ECAD3 /* NeurologyResidencyList.xlsx in Resources */ = {isa = PBXBuildFile; fileRef = 86194075213B8153003ECAD3 /* NeurologyResidencyList.xlsx */; };
+		8619408A213B8154003ECAD3 /* IMResidencyList.xlsx in Resources */ = {isa = PBXBuildFile; fileRef = 86194076213B8154003ECAD3 /* IMResidencyList.xlsx */; };
+		86194090213B8F21003ECAD3 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8619408F213B8F21003ECAD3 /* SettingsViewController.swift */; };
+		86194093213B94D3003ECAD3 /* MedicalSchoolSelectorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86194092213B94D3003ECAD3 /* MedicalSchoolSelectorViewController.swift */; };
+		8619409C213B9967003ECAD3 /* MDSchoolList.xlsx in Resources */ = {isa = PBXBuildFile; fileRef = 86194098213B9967003ECAD3 /* MDSchoolList.xlsx */; };
+		8619409D213B9967003ECAD3 /* DOSchoolList.xlsx in Resources */ = {isa = PBXBuildFile; fileRef = 86194099213B9967003ECAD3 /* DOSchoolList.xlsx */; };
+		8619409E213B9967003ECAD3 /* DegreeTypes.xlsx in Resources */ = {isa = PBXBuildFile; fileRef = 8619409A213B9967003ECAD3 /* DegreeTypes.xlsx */; };
+		8619409F213B9967003ECAD3 /* Step1Scores.xlsx in Resources */ = {isa = PBXBuildFile; fileRef = 8619409B213B9967003ECAD3 /* Step1Scores.xlsx */; };
+		861EC543213C311A009F468E /* CombinedSchoolList.xlsx in Resources */ = {isa = PBXBuildFile; fileRef = 861EC540213C3119009F468E /* CombinedSchoolList.xlsx */; };
+		861EC545213C5826009F468E /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 861EC544213C5826009F468E /* StoreKit.framework */; };
+		86209F432136E6D1005D8E4D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86209F422136E6D1005D8E4D /* AppDelegate.swift */; };
+		86209F452136E6D1005D8E4D /* MyProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86209F442136E6D1005D8E4D /* MyProfileViewController.swift */; };
+		86209F472136E6D1005D8E4D /* MyRanksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86209F462136E6D1005D8E4D /* MyRanksViewController.swift */; };
+		86209F4A2136E6D1005D8E4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86209F482136E6D1005D8E4D /* Main.storyboard */; };
+		86209F4C2136E6D2005D8E4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86209F4B2136E6D2005D8E4D /* Assets.xcassets */; };
+		86209F4F2136E6D2005D8E4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86209F4D2136E6D2005D8E4D /* LaunchScreen.storyboard */; };
+		86209F672136F2AB005D8E4D /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 86209F662136F2AB005D8E4D /* libz.tbd */; };
+		86209F802136FBA1005D8E4D /* AnesResidencyList.xlsx in Resources */ = {isa = PBXBuildFile; fileRef = 86209F7F2136FBA1005D8E4D /* AnesResidencyList.xlsx */; };
+		86209F8B21370038005D8E4D /* SetupRankOptionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86209F8721370038005D8E4D /* SetupRankOptionsViewController.swift */; };
+		86209F8F21370137005D8E4D /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86209F8E21370137005D8E4D /* Models.swift */; };
+		86209F9121370545005D8E4D /* ResidencyFields.xlsx in Resources */ = {isa = PBXBuildFile; fileRef = 86209F9021370545005D8E4D /* ResidencyFields.xlsx */; };
+		86209F9B213707F3005D8E4D /* libXlsxReaderWriter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 86209F792136FB4F005D8E4D /* libXlsxReaderWriter.a */; };
+		DEB0C63D3A147734D18099F6 /* Pods_ResidencyRanker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A72CCE627D675D452950EBE4 /* Pods_ResidencyRanker.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		86209F782136FB4F005D8E4D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 86209F712136FB4F005D8E4D /* XlsxReaderWriter.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 45B6E23A1A148F7500288A78;
+			remoteInfo = XlsxReaderWriter;
+		};
+		86209F7A2136FB4F005D8E4D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 86209F712136FB4F005D8E4D /* XlsxReaderWriter.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 45B6E2451A148F7500288A78;
+			remoteInfo = XlsxReaderWriterTests;
+		};
+		86209F7C2136FB4F005D8E4D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 86209F712136FB4F005D8E4D /* XlsxReaderWriter.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 22156D581C46B42500BB5779;
+			remoteInfo = "XlsxReaderWriter Mac";
+		};
+		86209F96213707ED005D8E4D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 86209F712136FB4F005D8E4D /* XlsxReaderWriter.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 45B6E2391A148F7500288A78;
+			remoteInfo = XlsxReaderWriter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		86009F0B21604F0400966A91 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "ResidencyRanker/GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		86175FEB21395CA40091ADF8 /* SelectResidencyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectResidencyViewController.swift; sourceTree = "<group>"; };
+		86194035213B608F003ECAD3 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		86194037213B6164003ECAD3 /* FinalResultsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinalResultsViewController.swift; sourceTree = "<group>"; };
+		86194039213B6168003ECAD3 /* RankingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RankingViewController.swift; sourceTree = "<group>"; };
+		8619404A213B66B3003ECAD3 /* EnterResidenciesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterResidenciesViewController.swift; sourceTree = "<group>"; };
+		86194063213B8152003ECAD3 /* RadOncResidencyList.xlsx */ = {isa = PBXFileReference; lastKnownFileType = file; name = RadOncResidencyList.xlsx; path = "Residency List/RadOncResidencyList.xlsx"; sourceTree = SOURCE_ROOT; };
+		86194064213B8152003ECAD3 /* OBGYNResidencyList.xlsx */ = {isa = PBXFileReference; lastKnownFileType = file; name = OBGYNResidencyList.xlsx; path = "Residency List/OBGYNResidencyList.xlsx"; sourceTree = SOURCE_ROOT; };
+		86194065213B8152003ECAD3 /* OrthoResidencyList.xlsx */ = {isa = PBXFileReference; lastKnownFileType = file; name = OrthoResidencyList.xlsx; path = "Residency List/OrthoResidencyList.xlsx"; sourceTree = SOURCE_ROOT; };
+		86194066213B8152003ECAD3 /* PlasticsResidencyList.xlsx */ = {isa = PBXFileReference; lastKnownFileType = file; name = PlasticsResidencyList.xlsx; path = "Residency List/PlasticsResidencyList.xlsx"; sourceTree = SOURCE_ROOT; };
+		86194067213B8152003ECAD3 /* NeurosurgeryResidencyList.xlsx */ = {isa = PBXFileReference; lastKnownFileType = file; name = NeurosurgeryResidencyList.xlsx; path = "Residency List/NeurosurgeryResidencyList.xlsx"; sourceTree = SOURCE_ROOT; };
+		86194068213B8152003ECAD3 /* VascularResidencyList.xlsx */ = {isa = PBXFileReference; lastKnownFileType = file; name = VascularResidencyList.xlsx; path = "Residency List/VascularResidencyList.xlsx"; sourceTree = SOURCE_ROOT; };
+		86194069213B8152003ECAD3 /* EMResidencyList.xlsx */ = {isa = PBXFileReference; lastKnownFileType = file; name = EMResidencyList.xlsx; path = "Residency List/EMResidencyList.xlsx"; sourceTree = SOURCE_ROOT; };
+		8619406A213B8152003ECAD3 /* PMRResidencyList.xlsx */ = {isa = PBXFileReference; lastKnownFileType = file; name = PMRResidencyList.xlsx; path = "Residency List/PMRResidencyList.xlsx"; sourceTree = SOURCE_ROOT; };
+		8619406B213B8153003ECAD3 /* RadiologyResidencyList.xlsx */ = {isa = PBXFileReference; lastKnownFileType = file; name = RadiologyResidencyList.xlsx; path = "Residency List/RadiologyResidencyList.xlsx"; sourceTree = SOURCE_ROOT; };
+		8619406C213B8153003ECAD3 /* ENTResidencyList.xlsx */ = {isa = PBXFileReference; lastKnownFileType = file; name = ENTResidencyList.xlsx; path = "Residency List/ENTResidencyList.xlsx"; sourceTree = SOURCE_ROOT; };
+		8619406D213B8153003ECAD3 /* PsychResidencyList.xlsx */ = {isa = PBXFileReference; lastKnownFileType = file; name = PsychResidencyList.xlsx; path = "Residency List/PsychResidencyList.xlsx"; sourceTree = SOURCE_ROOT; };
+		8619406E213B8153003ECAD3 /* GenSurgResidencyList.xlsx */ = {isa = PBXFileReference; lastKnownFileType = file; name = GenSurgResidencyList.xlsx; path = "Residency List/GenSurgResidencyList.xlsx"; sourceTree = SOURCE_ROOT; };
+		8619406F213B8153003ECAD3 /* FMResidencyList.xlsx */ = {isa = PBXFileReference; lastKnownFileType = file; name = FMResidencyList.xlsx; path = "Residency List/FMResidencyList.xlsx"; sourceTree = SOURCE_ROOT; };
+		86194070213B8153003ECAD3 /* PediatricsResidencyList.xlsx */ = {isa = PBXFileReference; lastKnownFileType = file; name = PediatricsResidencyList.xlsx; path = "Residency List/PediatricsResidencyList.xlsx"; sourceTree = SOURCE_ROOT; };
+		86194071213B8153003ECAD3 /* PathologyResidencyList.xlsx */ = {isa = PBXFileReference; lastKnownFileType = file; name = PathologyResidencyList.xlsx; path = "Residency List/PathologyResidencyList.xlsx"; sourceTree = SOURCE_ROOT; };
+		86194072213B8153003ECAD3 /* UrologyResidencyList.xlsx */ = {isa = PBXFileReference; lastKnownFileType = file; name = UrologyResidencyList.xlsx; path = "Residency List/UrologyResidencyList.xlsx"; sourceTree = SOURCE_ROOT; };
+		86194073213B8153003ECAD3 /* DermResidencyList.xlsx */ = {isa = PBXFileReference; lastKnownFileType = file; name = DermResidencyList.xlsx; path = "Residency List/DermResidencyList.xlsx"; sourceTree = SOURCE_ROOT; };
+		86194074213B8153003ECAD3 /* IRResidencyList.xlsx */ = {isa = PBXFileReference; lastKnownFileType = file; name = IRResidencyList.xlsx; path = "Residency List/IRResidencyList.xlsx"; sourceTree = SOURCE_ROOT; };
+		86194075213B8153003ECAD3 /* NeurologyResidencyList.xlsx */ = {isa = PBXFileReference; lastKnownFileType = file; name = NeurologyResidencyList.xlsx; path = "Residency List/NeurologyResidencyList.xlsx"; sourceTree = SOURCE_ROOT; };
+		86194076213B8154003ECAD3 /* IMResidencyList.xlsx */ = {isa = PBXFileReference; lastKnownFileType = file; name = IMResidencyList.xlsx; path = "Residency List/IMResidencyList.xlsx"; sourceTree = SOURCE_ROOT; };
+		8619408F213B8F21003ECAD3 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		86194092213B94D3003ECAD3 /* MedicalSchoolSelectorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicalSchoolSelectorViewController.swift; sourceTree = "<group>"; };
+		86194098213B9967003ECAD3 /* MDSchoolList.xlsx */ = {isa = PBXFileReference; lastKnownFileType = file; name = MDSchoolList.xlsx; path = "Profile Information/MDSchoolList.xlsx"; sourceTree = SOURCE_ROOT; };
+		86194099213B9967003ECAD3 /* DOSchoolList.xlsx */ = {isa = PBXFileReference; lastKnownFileType = file; name = DOSchoolList.xlsx; path = "Profile Information/DOSchoolList.xlsx"; sourceTree = SOURCE_ROOT; };
+		8619409A213B9967003ECAD3 /* DegreeTypes.xlsx */ = {isa = PBXFileReference; lastKnownFileType = file; name = DegreeTypes.xlsx; path = "Profile Information/DegreeTypes.xlsx"; sourceTree = SOURCE_ROOT; };
+		8619409B213B9967003ECAD3 /* Step1Scores.xlsx */ = {isa = PBXFileReference; lastKnownFileType = file; name = Step1Scores.xlsx; path = "Profile Information/Step1Scores.xlsx"; sourceTree = SOURCE_ROOT; };
+		861EC540213C3119009F468E /* CombinedSchoolList.xlsx */ = {isa = PBXFileReference; lastKnownFileType = file; name = CombinedSchoolList.xlsx; path = "Profile Information/CombinedSchoolList.xlsx"; sourceTree = SOURCE_ROOT; };
+		861EC544213C5826009F468E /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		861EC546213C582A009F468E /* ResidencyRanker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ResidencyRanker.entitlements; sourceTree = "<group>"; };
+		86209F3F2136E6D1005D8E4D /* ResidencyRanker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ResidencyRanker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		86209F422136E6D1005D8E4D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		86209F442136E6D1005D8E4D /* MyProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProfileViewController.swift; sourceTree = "<group>"; };
+		86209F462136E6D1005D8E4D /* MyRanksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyRanksViewController.swift; sourceTree = "<group>"; };
+		86209F492136E6D1005D8E4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		86209F4B2136E6D2005D8E4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		86209F4E2136E6D2005D8E4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		86209F502136E6D2005D8E4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86209F662136F2AB005D8E4D /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		86209F682136F2F8005D8E4D /* BridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BridgingHeader.h; sourceTree = "<group>"; };
+		86209F712136FB4F005D8E4D /* XlsxReaderWriter.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = XlsxReaderWriter.xcodeproj; path = XlsxReaderWriter/XlsxReaderWriter.xcodeproj; sourceTree = SOURCE_ROOT; };
+		86209F7F2136FBA1005D8E4D /* AnesResidencyList.xlsx */ = {isa = PBXFileReference; lastKnownFileType = file; name = AnesResidencyList.xlsx; path = "Residency List/AnesResidencyList.xlsx"; sourceTree = SOURCE_ROOT; };
+		86209F8721370038005D8E4D /* SetupRankOptionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetupRankOptionsViewController.swift; sourceTree = "<group>"; };
+		86209F8E21370137005D8E4D /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		86209F9021370545005D8E4D /* ResidencyFields.xlsx */ = {isa = PBXFileReference; lastKnownFileType = file; path = ResidencyFields.xlsx; sourceTree = SOURCE_ROOT; };
+		A72CCE627D675D452950EBE4 /* Pods_ResidencyRanker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ResidencyRanker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B666E88FDD2C62BF37E02E9C /* Pods-ResidencyRanker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ResidencyRanker.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ResidencyRanker/Pods-ResidencyRanker.debug.xcconfig"; sourceTree = "<group>"; };
+		CE37505866BD1708438BD34F /* Pods-ResidencyRanker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ResidencyRanker.release.xcconfig"; path = "Pods/Target Support Files/Pods-ResidencyRanker/Pods-ResidencyRanker.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		86209F3C2136E6D1005D8E4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86209F9B213707F3005D8E4D /* libXlsxReaderWriter.a in Frameworks */,
+				86209F672136F2AB005D8E4D /* libz.tbd in Frameworks */,
+				DEB0C63D3A147734D18099F6 /* Pods_ResidencyRanker.framework in Frameworks */,
+				861EC545213C5826009F468E /* StoreKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B37A9113B1422EB2AB7A97F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B666E88FDD2C62BF37E02E9C /* Pods-ResidencyRanker.debug.xcconfig */,
+				CE37505866BD1708438BD34F /* Pods-ResidencyRanker.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		68BCB68A88CC57C38237D464 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				861EC544213C5826009F468E /* StoreKit.framework */,
+				86209F662136F2AB005D8E4D /* libz.tbd */,
+				A72CCE627D675D452950EBE4 /* Pods_ResidencyRanker.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		86194041213B6252003ECAD3 /* Misc */ = {
+			isa = PBXGroup;
+			children = (
+				86209F422136E6D1005D8E4D /* AppDelegate.swift */,
+				86209F8E21370137005D8E4D /* Models.swift */,
+				8619408F213B8F21003ECAD3 /* SettingsViewController.swift */,
+				86194035213B608F003ECAD3 /* Helper.swift */,
+			);
+			path = Misc;
+			sourceTree = "<group>";
+		};
+		86194091213B9084003ECAD3 /* For Ranking */ = {
+			isa = PBXGroup;
+			children = (
+				86209F462136E6D1005D8E4D /* MyRanksViewController.swift */,
+				86209F8721370038005D8E4D /* SetupRankOptionsViewController.swift */,
+				8619404A213B66B3003ECAD3 /* EnterResidenciesViewController.swift */,
+				86175FEB21395CA40091ADF8 /* SelectResidencyViewController.swift */,
+				86194039213B6168003ECAD3 /* RankingViewController.swift */,
+				86194037213B6164003ECAD3 /* FinalResultsViewController.swift */,
+			);
+			path = "For Ranking";
+			sourceTree = "<group>";
+		};
+		86194094213B94E2003ECAD3 /* My Profile */ = {
+			isa = PBXGroup;
+			children = (
+				86209F442136E6D1005D8E4D /* MyProfileViewController.swift */,
+				86194092213B94D3003ECAD3 /* MedicalSchoolSelectorViewController.swift */,
+			);
+			path = "My Profile";
+			sourceTree = "<group>";
+		};
+		86194097213B9957003ECAD3 /* Profile Information */ = {
+			isa = PBXGroup;
+			children = (
+				861EC540213C3119009F468E /* CombinedSchoolList.xlsx */,
+				8619409A213B9967003ECAD3 /* DegreeTypes.xlsx */,
+				86194099213B9967003ECAD3 /* DOSchoolList.xlsx */,
+				86194098213B9967003ECAD3 /* MDSchoolList.xlsx */,
+				8619409B213B9967003ECAD3 /* Step1Scores.xlsx */,
+			);
+			path = "Profile Information";
+			sourceTree = "<group>";
+		};
+		86209F362136E6D1005D8E4D = {
+			isa = PBXGroup;
+			children = (
+				86209F412136E6D1005D8E4D /* ResidencyRanker */,
+				86209F402136E6D1005D8E4D /* Products */,
+				0B37A9113B1422EB2AB7A97F /* Pods */,
+				68BCB68A88CC57C38237D464 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		86209F402136E6D1005D8E4D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				86209F3F2136E6D1005D8E4D /* ResidencyRanker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		86209F412136E6D1005D8E4D /* ResidencyRanker */ = {
+			isa = PBXGroup;
+			children = (
+				861EC546213C582A009F468E /* ResidencyRanker.entitlements */,
+				86209F682136F2F8005D8E4D /* BridgingHeader.h */,
+				86194041213B6252003ECAD3 /* Misc */,
+				86194094213B94E2003ECAD3 /* My Profile */,
+				86194091213B9084003ECAD3 /* For Ranking */,
+				86209F482136E6D1005D8E4D /* Main.storyboard */,
+				86209F4B2136E6D2005D8E4D /* Assets.xcassets */,
+				86209F4D2136E6D2005D8E4D /* LaunchScreen.storyboard */,
+				86209F7E2136FB66005D8E4D /* Residency Lists */,
+				86194097213B9957003ECAD3 /* Profile Information */,
+				86209F502136E6D2005D8E4D /* Info.plist */,
+				86009F0B21604F0400966A91 /* GoogleService-Info.plist */,
+				86209F712136FB4F005D8E4D /* XlsxReaderWriter.xcodeproj */,
+			);
+			path = ResidencyRanker;
+			sourceTree = "<group>";
+		};
+		86209F722136FB4F005D8E4D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				86209F792136FB4F005D8E4D /* libXlsxReaderWriter.a */,
+				86209F7B2136FB4F005D8E4D /* XlsxReaderWriterTests.xctest */,
+				86209F7D2136FB4F005D8E4D /* XlsxReaderWriter.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		86209F7E2136FB66005D8E4D /* Residency Lists */ = {
+			isa = PBXGroup;
+			children = (
+				86209F7F2136FBA1005D8E4D /* AnesResidencyList.xlsx */,
+				86194073213B8153003ECAD3 /* DermResidencyList.xlsx */,
+				86194069213B8152003ECAD3 /* EMResidencyList.xlsx */,
+				8619406C213B8153003ECAD3 /* ENTResidencyList.xlsx */,
+				8619406F213B8153003ECAD3 /* FMResidencyList.xlsx */,
+				8619406E213B8153003ECAD3 /* GenSurgResidencyList.xlsx */,
+				86194076213B8154003ECAD3 /* IMResidencyList.xlsx */,
+				86194074213B8153003ECAD3 /* IRResidencyList.xlsx */,
+				86194075213B8153003ECAD3 /* NeurologyResidencyList.xlsx */,
+				86194067213B8152003ECAD3 /* NeurosurgeryResidencyList.xlsx */,
+				86194064213B8152003ECAD3 /* OBGYNResidencyList.xlsx */,
+				86194065213B8152003ECAD3 /* OrthoResidencyList.xlsx */,
+				86194071213B8153003ECAD3 /* PathologyResidencyList.xlsx */,
+				86194070213B8153003ECAD3 /* PediatricsResidencyList.xlsx */,
+				86194066213B8152003ECAD3 /* PlasticsResidencyList.xlsx */,
+				8619406A213B8152003ECAD3 /* PMRResidencyList.xlsx */,
+				8619406D213B8153003ECAD3 /* PsychResidencyList.xlsx */,
+				8619406B213B8153003ECAD3 /* RadiologyResidencyList.xlsx */,
+				86194063213B8152003ECAD3 /* RadOncResidencyList.xlsx */,
+				86194072213B8153003ECAD3 /* UrologyResidencyList.xlsx */,
+				86194068213B8152003ECAD3 /* VascularResidencyList.xlsx */,
+				86209F9021370545005D8E4D /* ResidencyFields.xlsx */,
+			);
+			path = "Residency Lists";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		86209F3E2136E6D1005D8E4D /* ResidencyRanker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86209F532136E6D2005D8E4D /* Build configuration list for PBXNativeTarget "ResidencyRanker" */;
+			buildPhases = (
+				B34DC63981B616A51E40E13A /* [CP] Check Pods Manifest.lock */,
+				86209F3B2136E6D1005D8E4D /* Sources */,
+				86209F3C2136E6D1005D8E4D /* Frameworks */,
+				86209F3D2136E6D1005D8E4D /* Resources */,
+				6CF9FE5329634EC8EDDC07B7 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				86209F97213707ED005D8E4D /* PBXTargetDependency */,
+			);
+			name = ResidencyRanker;
+			productName = ResidencyRanker;
+			productReference = 86209F3F2136E6D1005D8E4D /* ResidencyRanker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		86209F372136E6D1005D8E4D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Tony Jiang";
+				TargetAttributes = {
+					86209F3E2136E6D1005D8E4D = {
+						CreatedOnToolsVersion = 9.4.1;
+						SystemCapabilities = {
+							com.apple.InAppPurchase = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 86209F3A2136E6D1005D8E4D /* Build configuration list for PBXProject "ResidencyRanker" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 86209F362136E6D1005D8E4D;
+			productRefGroup = 86209F402136E6D1005D8E4D /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 86209F722136FB4F005D8E4D /* Products */;
+					ProjectRef = 86209F712136FB4F005D8E4D /* XlsxReaderWriter.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				86209F3E2136E6D1005D8E4D /* ResidencyRanker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		86209F792136FB4F005D8E4D /* libXlsxReaderWriter.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libXlsxReaderWriter.a;
+			remoteRef = 86209F782136FB4F005D8E4D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		86209F7B2136FB4F005D8E4D /* XlsxReaderWriterTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = XlsxReaderWriterTests.xctest;
+			remoteRef = 86209F7A2136FB4F005D8E4D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		86209F7D2136FB4F005D8E4D /* XlsxReaderWriter.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = XlsxReaderWriter.framework;
+			remoteRef = 86209F7C2136FB4F005D8E4D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		86209F3D2136E6D1005D8E4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8619407C213B8154003ECAD3 /* VascularResidencyList.xlsx in Resources */,
+				86194087213B8154003ECAD3 /* DermResidencyList.xlsx in Resources */,
+				86194078213B8154003ECAD3 /* OBGYNResidencyList.xlsx in Resources */,
+				8619408A213B8154003ECAD3 /* IMResidencyList.xlsx in Resources */,
+				8619407A213B8154003ECAD3 /* PlasticsResidencyList.xlsx in Resources */,
+				861EC543213C311A009F468E /* CombinedSchoolList.xlsx in Resources */,
+				8619407E213B8154003ECAD3 /* PMRResidencyList.xlsx in Resources */,
+				86209F9121370545005D8E4D /* ResidencyFields.xlsx in Resources */,
+				86194079213B8154003ECAD3 /* OrthoResidencyList.xlsx in Resources */,
+				86209F802136FBA1005D8E4D /* AnesResidencyList.xlsx in Resources */,
+				86194082213B8154003ECAD3 /* GenSurgResidencyList.xlsx in Resources */,
+				8619409D213B9967003ECAD3 /* DOSchoolList.xlsx in Resources */,
+				86194077213B8154003ECAD3 /* RadOncResidencyList.xlsx in Resources */,
+				86194085213B8154003ECAD3 /* PathologyResidencyList.xlsx in Resources */,
+				86194080213B8154003ECAD3 /* ENTResidencyList.xlsx in Resources */,
+				86009F0C21604F0400966A91 /* GoogleService-Info.plist in Resources */,
+				86194083213B8154003ECAD3 /* FMResidencyList.xlsx in Resources */,
+				86194086213B8154003ECAD3 /* UrologyResidencyList.xlsx in Resources */,
+				86194089213B8154003ECAD3 /* NeurologyResidencyList.xlsx in Resources */,
+				86194084213B8154003ECAD3 /* PediatricsResidencyList.xlsx in Resources */,
+				8619407F213B8154003ECAD3 /* RadiologyResidencyList.xlsx in Resources */,
+				86209F4F2136E6D2005D8E4D /* LaunchScreen.storyboard in Resources */,
+				8619409F213B9967003ECAD3 /* Step1Scores.xlsx in Resources */,
+				8619407B213B8154003ECAD3 /* NeurosurgeryResidencyList.xlsx in Resources */,
+				8619407D213B8154003ECAD3 /* EMResidencyList.xlsx in Resources */,
+				86194081213B8154003ECAD3 /* PsychResidencyList.xlsx in Resources */,
+				86209F4C2136E6D2005D8E4D /* Assets.xcassets in Resources */,
+				8619409C213B9967003ECAD3 /* MDSchoolList.xlsx in Resources */,
+				86194088213B8154003ECAD3 /* IRResidencyList.xlsx in Resources */,
+				8619409E213B9967003ECAD3 /* DegreeTypes.xlsx in Resources */,
+				86209F4A2136E6D1005D8E4D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6CF9FE5329634EC8EDDC07B7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ResidencyRanker/Pods-ResidencyRanker-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Combinatorics/Combinatorics.framework",
+				"${BUILT_PRODUCTS_DIR}/DHSmartScreenshot/DHSmartScreenshot.framework",
+				"${BUILT_PRODUCTS_DIR}/Disk/Disk.framework",
+				"${BUILT_PRODUCTS_DIR}/Eureka/Eureka.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/LGButton/LGButton.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftMessages/SwiftMessages.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyStoreKit/SwiftyStoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Combinatorics.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DHSmartScreenshot.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Disk.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Eureka.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LGButton.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftMessages.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyStoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ResidencyRanker/Pods-ResidencyRanker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B34DC63981B616A51E40E13A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ResidencyRanker-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		86209F3B2136E6D1005D8E4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86175FEC21395CA40091ADF8 /* SelectResidencyViewController.swift in Sources */,
+				86194038213B6164003ECAD3 /* FinalResultsViewController.swift in Sources */,
+				86209F472136E6D1005D8E4D /* MyRanksViewController.swift in Sources */,
+				86194093213B94D3003ECAD3 /* MedicalSchoolSelectorViewController.swift in Sources */,
+				86209F8B21370038005D8E4D /* SetupRankOptionsViewController.swift in Sources */,
+				86209F432136E6D1005D8E4D /* AppDelegate.swift in Sources */,
+				8619403A213B6169003ECAD3 /* RankingViewController.swift in Sources */,
+				86209F8F21370137005D8E4D /* Models.swift in Sources */,
+				86209F452136E6D1005D8E4D /* MyProfileViewController.swift in Sources */,
+				86194090213B8F21003ECAD3 /* SettingsViewController.swift in Sources */,
+				8619404B213B66B3003ECAD3 /* EnterResidenciesViewController.swift in Sources */,
+				86194036213B608F003ECAD3 /* Helper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		86209F97213707ED005D8E4D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = XlsxReaderWriter;
+			targetProxy = 86209F96213707ED005D8E4D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		86209F482136E6D1005D8E4D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				86209F492136E6D1005D8E4D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		86209F4D2136E6D2005D8E4D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				86209F4E2136E6D2005D8E4D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		86209F512136E6D2005D8E4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-all_load";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/XlsxReaderWriter/**";
+			};
+			name = Debug;
+		};
+		86209F522136E6D2005D8E4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "-all_load";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/XlsxReaderWriter/**";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		86209F542136E6D2005D8E4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B666E88FDD2C62BF37E02E9C /* Pods-ResidencyRanker.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ResidencyRanker/ResidencyRanker.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GG56CBZJ65;
+				INFOPLIST_FILE = ResidencyRanker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.TianProductions.ResidencyRanker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = /Users/tonbo/Documents/Xcode/ResidencyRanker/ResidencyRanker/BridgingHeader.h;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		86209F552136E6D2005D8E4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE37505866BD1708438BD34F /* Pods-ResidencyRanker.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ResidencyRanker/ResidencyRanker.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GG56CBZJ65;
+				INFOPLIST_FILE = ResidencyRanker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.TianProductions.ResidencyRanker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = /Users/tonbo/Documents/Xcode/ResidencyRanker/ResidencyRanker/BridgingHeader.h;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		86209F3A2136E6D1005D8E4D /* Build configuration list for PBXProject "ResidencyRanker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86209F512136E6D2005D8E4D /* Debug */,
+				86209F522136E6D2005D8E4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86209F532136E6D2005D8E4D /* Build configuration list for PBXNativeTarget "ResidencyRanker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86209F542136E6D2005D8E4D /* Debug */,
+				86209F552136E6D2005D8E4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 86209F372136E6D1005D8E4D /* Project object */;
+}

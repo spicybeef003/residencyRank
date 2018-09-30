@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>800398611311-jht4tqrs6lu2f8s0n1ru9djap49a49la.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.800398611311-jht4tqrs6lu2f8s0n1ru9djap49a49la</string>
+	<key>API_KEY</key>
+	<string>AIzaSyChoU1uxw4FPjEr3WSH3yjVhtpNWJqeRf4</string>
+	<key>GCM_SENDER_ID</key>
+	<string>800398611311</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.TianProductions.ResidencyRanker</string>
+	<key>PROJECT_ID</key>
+	<string>residency-rank</string>
+	<key>STORAGE_BUCKET</key>
+	<string>residency-rank.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:800398611311:ios:b63d86a0036fe2ee</string>
+	<key>DATABASE_URL</key>
+	<string>https://residency-rank.firebaseio.com</string>
+</dict>
+</plist>
